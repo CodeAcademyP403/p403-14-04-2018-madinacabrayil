@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <section id="main">
+            <div class="left">
+                <div class="card1 cardl" id="drag1"  draggable="true" ondragstart="drag(event)"></div>
+                <div class="card2 cardl" id="drag2" draggable="true" ondragstart="drag(event)"></div>
+                <div class="card3 cardl" id="drag3" draggable="true" ondragstart="drag(event)"></div>
+                <div class="card4 cardl" id="drag4" draggable="true" ondragstart="drag(event)"></div>
+                <div class="card5 cardl" id="drag5" draggable="true" ondragstart="drag(event)"></div>
+                <div class="card6 cardl" id="drag6" draggable="true" ondragstart="drag(event)"></div>
+                <div class="card7 cardl" id="drag7" draggable="true" ondragstart="drag(event)"></div>
+                <div class="card8 cardl" id="drag8" draggable="true" ondragstart="drag(event)"></div>
+            </div>
+            <div class=" right">
+                    <div class="card1 cardr" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="card2 cardr" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="card3 cardr" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="card4 cardr" id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="card5 cardr" id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="card6 cardr" id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="card7 cardr" id="div7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="card8 cardr" id="div8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+    </section>
+  
+    <script src="js/main.js"></script>
+</body>
+
+</html>
